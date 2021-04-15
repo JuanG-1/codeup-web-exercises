@@ -41,6 +41,7 @@ console.log(12 % 3); // modulo operator/divides and answer will be the remainder
 
 console.log(3 + 1);
 
+
 console.log(5 - 1);
 
 console.log(2 * 2);
@@ -48,4 +49,24 @@ console.log(2 * 2);
 console.log(4 / 1);
 
 console.log(4 % 28);
+
+// UNDEFINED
+
+// a variable/object which is written but never assigned
+
+var name
+
+console.log(null);
+
+//STRINGS
+
+console.log("Casey");
+
+console.log("Casey \n Is \n\t\tHungry") // \t = tabs it and \n new line
+
+name = "Casey"
+
+///TYPEOF
+
+console.log("The type is:" + typeof(156));
 
