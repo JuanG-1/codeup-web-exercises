@@ -1,97 +1,114 @@
-(function () {
-    "use strict";
+"use strict";
 
+/* ########################################################################## */
 
+/**
+ * TODO:
+ * Create a function named `analyzeColor` that accepts a string that is a color
+ * name as input. This function should return a message that related to that
+ * color. Only worry about the colors defined below, if the color passed is not
+ * one of the ones defined below, return a message that says so
+ *
+ * Example:
+ *  > analyzeColor('blue') // returns "blue is the color of the sky"
+ *  > analyzeColor('red') // returns "Strawberries are red"
+ *  > analyzeColor('cyan') // returns "I don't know anything about cyan"
+ *
+ * You should use an if-else-if-else block to return different messages.
+ *
+ * Test your function by passing various string literals to it and
+ * console.logging the function's return value
+ */
 
-// function canGetRideShare(nearby, enoughMoney){
-// return getToDestination(canGetRideShare());
-// }else{
-//     return(nearby && enoughMoney);
-//     console.log(canGetRideShare())
-// }
-// console.log(canGetRideShare(true,true ));
-
-/
-//create a function canGetRideshare
-// return a boolean
-// call getToDestination
-// can getRideshare(parameter will be an argument =  canGetRideShare)
-// log if they meet the parameters
-
-
-// TODO: MINI EXERCISE -> IF / ELSE IF / ELSE
-//  -> Let's augment our getToDestination() function
-//  -> Create a function called canGetRideshare() which will *RETURN* a boolean
-//      -> It will determine if there are drivers nearby and the person has enough money for the ride
-//  -> Now, when you call getToDestination(), your canGetRideshare parameter will be an argument that is
-//  -> fulfilled by a call to canGetRideshare() (yes, I know, the whole parameter name vs argument name thing)
-//  -> Be sure to log to the user if they can or cannot get a rideshare
-// TODO: BONUS -> This exercise will probably get the mind wondering "How can I make this more?.."
-//  -> Consider this: What if mileage determined:
-//      -> If the rider has enough funds?
-//      -> If there is a driver close enough to service the rider?
-
-    function getHeartRateRange(){
-        var age = 26;
-        var heartRange;
-        switch (true){
-            case (age >= 20 && age < 30):
-                heartRange = "100-170";
-                console.log("This condition was met");
-                break;
-            case age >= 30 && age < 35:
-                heartRange = "95-162";
-                break;
-            case age >= 35 && age < 40:
-                heartRange = "93-157";
-                break;
-            case age >= 40 && age < 45:
-                heartRange = "90-153";
-                break;
-            case age >= 45 && age < 50:
-                heartRange = "88-149";
-                break;
-            case age >= 50 && age < 55:
-                heartRange = "83-140";
-                break;
-            case age >= 55 && age < 60:
-                heartRange = "80-136";
-                break;
-            case age >= 60 && age < 65:
-                heartRange = "78-132";
-                break;
-            case age >= 65 && age < 70:
-                heartRange = "75-128";
-                break;
-            default:
-                heartRange = "Age outside of range. Cannot determine ideal heart rate";
-                break;
-        }
-        return heartRange;
-    }
-    function showHeartRateRange(heartRange){
-        console.log("Your ideal heart rate range (in bpm) is: " + heartRange);
-    }
-    showHeartRateRange(getHeartRateRange());
-
-    function isCorrectFruit(fruit){
-
-        switch(fruit{ //string
-
-            case "apple": //string
-                console.log("This is an apple");
-                break;
-            case "orange": //string
-                console.log("This is an orange");
-            case "banana" :
-                console.log("This is a banana");
-                break;
-            default:
-                console.log("IDK probs not a fruit);
-
-
-
-        }
+function analyzeColor (str) {
+    if (str === "blue") {
+        console.log("the sky is blue");
+    } else if (str === "red") {
+        console.log("Cherries are red");
+    } else if (str === "cyan") {
+        console.log("I don't know anything about cyan");
+    } else if (str === "yellow") {
+        console.log("Bananas are yellow");
+    } else if (str === "green") {
+    }else{
+        return "i dont know anything about cyan"
     }
 
-})();
+}
+
+console.log(analyzeColor(randomColor))
+// Don't change the next two lines!
+// These lines create two variables for you:
+// - `colors`: a list of the colors of the rainbow
+// - `randomColor`: contains a single random color value from the list (this
+//                  will contain a different color every time the page loads)
+var colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+var randomColor = colors[Math.floor(Math.random() * colors.length)];
+/**
+ * TODO:
+ * Pass the `randomColor` variable to your function and console.log the results.
+ * You should see a different message every time you refresh the page
+ */
+
+
+
+/**
+ * TODO:
+ * Refactor your above function to use a switch-case statement
+ */
+
+/**
+ * TODO:
+ * Prompt the user for a color when the page loads, and pass the input from the
+ * user to your `analyzeColor` function. Alert the return value from your
+ * function to show it to the user.
+ */
+
+/* ########################################################################## */
+
+/**
+ * TODO:
+ * Suppose there's a promotion in Walmart, each customer is given a randomly
+ * generated "lucky number" between 0 and 5. If your lucky number is 0 you have
+ * no discount, if your lucky number is 1 you'll get a 10% discount, if it's 2,
+ * the discount is 25%, if it's 3, 35%, if it's 4, 50%, and if it's 5 you'll get
+ * all for free!.
+ *
+ * Write a function named `calculateTotal` that accepts a lucky number and total
+ * amount, and returns the discounted price.
+ *
+ * Example:
+ * calculateTotal(0, 100) // returns 100
+ * calculateTotal(4, 100) // returns 50
+ * calculateTotal(5, 100) // returns 0
+ *
+ * Test your function by passing it various values and checking for the expected
+ * return value.
+ */
+
+/**
+ * TODO:
+ * Uncomment the line below to generate a random number between 0 and 6.
+ * Prompt the user for their total bill, then use your `calculateTotal` function
+ * and alerts to display to the user what their lucky number was, what their
+ * price before the discount was, and what their price after the discount is.
+ */
+// Generate a random number between 0 and 6
+// var luckyNumber = Math.floor(Math.random() * 6);
+
+/**
+ * TODO:
+ * Write some JavaScript that uses a `confirm` dialog to ask the user if they
+ * would like to enter a number. If they click 'Ok', prompt the user for a
+ * number, then use 3 separate alerts to tell the user:
+ *
+ * - whether the number is even or odd
+ * - what the number plus 100 is
+ * - if the number is negative or positive
+ *
+ * if what the user enters is not a number, use an alert to tell them that, and
+ * do *not* display any of the above information.
+ *
+ * Can you refactor your code to use functions?
+ * HINT: The way we prompt for a value could be improved
+ */
