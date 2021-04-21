@@ -1,6 +1,6 @@
 "use strict";
 
-/* ########################################################################## */
+
 
 /**
  * TODO:
@@ -8,39 +8,25 @@
  * name as input. This function should return a message that related to that
  * color. Only worry about the colors defined below, if the color passed is not
  * one of the ones defined below, return a message that says so
+ *
  * Example:
  *  > analyzeColor('blue') // returns "blue is the color of the sky"
  *  > analyzeColor('red') // returns "Strawberries are red"
  *  > analyzeColor('cyan') // returns "I don't know anything about cyan"
+ *
  * You should use an if-else-if-else block to return different messages.
+ *
  * Test your function by passing various string literals to it and
  * console.logging the function's return value
  */
-
-var blue = true
-var red = true
-var cyan = true
-
-
-function analyzeColor(blue, red, cyan) {
-    if (blue)
-        return "blue is the color of the sky";
-    if (red)
-        return "Strawberries are red";
-    if (cyan)
-        return "I don't know anything about cyan";
-}
-
-console.log(analyzeColor(blue || red || cyan));
-
 
 // Don't change the next two lines!
 // These lines create two variables for you:
 // - `colors`: a list of the colors of the rainbow
 // - `randomColor`: contains a single random color value from the list (this
 //                  will contain a different color every time the page loads)
-// var colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
-// var randomColor = colors[Math.floor(Math.random() * colors.length)];
+var colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+var randomColor = colors[Math.floor(Math.random() * colors.length)];
 /**
  * TODO:
  * Pass the `randomColor` variable to your function and console.log the results.
