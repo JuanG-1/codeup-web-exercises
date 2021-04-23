@@ -25,20 +25,69 @@
  // } while (condition);
 
 /// example sing happybirthday every year and when they reach 16 say "i got you a car"
+//
+// var age = 0;
+//
+// do{
+//     age++;
+//     console.log(`happy bday! you are now ${age}years old`);
+//
+// } while(age <16)
+//
+//  console.log("sorry you are to old for songs but we bought you a car instead");
+//
+//
+//
+// /// FOR LOOPS
+//
+//  for(let i = 0; i <= 10; i++){ //starting point, end point and increment
+//      // code to be executed
+//      console.log(`hello world ${i}`);
+//  }
+//
+//  for(let x = 10; x <= 25; x++){
+//      console.log(x * 2);
+//  }
+// var carton = 0;
+//  for(let eggs = 1; eggs <= 72; eggs++) {
+//      console.log("eggs" + eggs);
+//      if (eggs % 12 == 0) {
+//          carton++;
+//      }
+//      console.log(`We have filled ${carton} amount of egg cartons with ${eggs} number of eggs`)
+//  }
+//
+//
+//  for(let i = 0; i <=10; i++){
+//      console.log(i)
+//  }
 
-var age = 0;
+ //WRITE A NESTED LOOP
+ // WRITE A NESTED  FOR LOOP THAT COUNTS FROM 1 TO 5 AND THEN FROM 5 TO 1
+ //
 
-do{
-    age++;
-    console.log(`happy bday! you are now ${age}years old`);
-
-} while(age <16)
-
- console.log("sorry you are to old for songs but we bought you a car instead");
-
-
+ // LOOP TO THE COUNT FROM 1 TO 10
+ // STARTING POINT
+ // RETURN VALUE
+ // INCREMENT
+ // VARIABLE THAT WILL HOLD COUNT
+ // LOGGIN GHT CURRENT COUNT
+ //CONDITIONAL-STOPPING POINT
 
 
+
+ // TODO: Loop through a set of numbers (0-30), if the number you're currently at is even, add 2 to it. If it's an
+ //  odd number, print "odd"
+ // // HINT: remember the remainder operator (modulo)
+
+ for(let i = 0; i <= 30; i++){
+     console.log(i % 2,);
+ }
+
+
+ // // TODO: loop through numbers 1 - 40. Print "marco" if it's divisible by 3. Print "polo" if it's divisible by 5.
+ //  If it's neither print "I'm not playing"
+ //  Print "marco polo" if it's divisible by 3 and
 
 
 
