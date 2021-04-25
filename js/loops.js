@@ -80,14 +80,36 @@
  //  odd number, print "odd"
  // // HINT: remember the remainder operator (modulo)
 
- for(let i = 0; i <= 30; i++){
-     console.log(i % 2,);
- }
+ // for(let i = 0; i <= 30; i++){
+ //     if(i % 2 + 2);
+ //         console.log(i);
+ // }
+
+ // for(let i = 0; i <= 30; i++){
+ //  // console.log(i);
+ //  if(i % 2 === 0 ){
+ //   console.log(i  + " adding 2 to the even number"); //even number and adding 2 to it
+ //  }else if( i % 2 !== 0){
+ //   console.log("odd")
+ //  }
+ //
+ // console.log(i + "what number is this")
+
+ // }
 
 
  // // TODO: loop through numbers 1 - 40. Print "marco" if it's divisible by 3. Print "polo" if it's divisible by 5.
  //  If it's neither print "I'm not playing"
  //  Print "marco polo" if it's divisible by 3 and
+
+for(let i = 0; i<= 40; i++) {
+ if (i % 3 === 0) {
+  console.log("marco");
+  if (i % 5 === 0) {
+   console.log("polo")
+  }
+ }
+}
 
 
 
