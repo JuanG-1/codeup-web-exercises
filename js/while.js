@@ -64,7 +64,7 @@ do{
         console.log(`I'm sorry, you wanted ${wantedCones}, but we only have ${allCones}`)
         continue;
     }
-    console.log( `Here are ${ wantedCones}. Enjoy!`)
+    console.log( `Here is your Ice Cream Cone ${ wantedCones}. Enjoy!`)
     allCones -= wantedCones;
     console.log(`We have ${allCones} remaining`);
 }while(allCones > 0)
