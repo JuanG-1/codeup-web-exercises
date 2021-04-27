@@ -10,7 +10,7 @@
      * planetsArray.
      * console.log planetsArray to check your work
      */
-var planetsArray = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Saturn", "uranus", "Neptune"];
+var planetsArray = planetsString.split("|");
     console.log(planetsArray);
 
     // console.log(planetsArray);

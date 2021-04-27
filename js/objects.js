@@ -1,0 +1,225 @@
+(function() {
+    "use strict";
+
+    // // var aboutMe = new Object (); ///NEW OBJECT
+    //
+    //
+    // var thisIsMe = {   /// OBJECT literals/// unlike functions the curly braces stroes information vs fucntions {} the execute code
+    //     city: `San Antonio`,
+    //     age: `36`,
+    //     sex: `Male`,
+    //     status: `Married`,
+    //     hobbies: `burning firewood`,
+    //     aboutMe["city"] = "San Antonio"
+    // };
+    // console.log(thisIsMe);
+    //
+    // var aboutMe = new Object (); /// dot notation nameOfObject.nameOfProperty = Value
+    // console.log(aboutMe)
+    //
+    // aboutMe.city = `San Antonio`;
+    // aboutMe.age = `36`;
+
+    /// BRACKET NOTATION BRACKETS AND QUOTES
+//
+//     var aboutMe = {};
+//
+//     aboutMe["city"] = "San Antonio"
+//     aboutMe["age"] = "36"
+//     aboutMe["sex"] = "Male"
+//     console.log(aboutMe)
+//
+//     aboutMe.age = 36
+//     aboutMe.city = "San Antonio"
+//
+//
+// let bracketObj = {
+//         cat: "meow",
+//     dog: "woof"
+// };
+//     let dog = "cat";
+//     let sound = bracketObj["cat"];
+//     console.log(sound);
+
+// TODO: create an empty 'yourFaveSportsTeam' object using object literals
+// TODO: let's add a 'city', 'coach', and 'sport' property to our 'team' object using dot
+// TODO: let's add 'numOfPlayers', 'numOfChampsWon', and 'isBestTeam' properties to our same 'teams' object using bracket notation
+// TODO: write a function that returns the sport and numOfPlayers from your 'team' object
+
+//
+//     var yourFaveSportsTeam = {};
+//         yourFaveSportsTeam.city = "Chicago"
+//         yourFaveSportsTeam.coach = "Matt Naggy"
+//         yourFaveSportsTeam.sport = "football"
+//
+//
+//         yourFaveSportsTeam["numOfPlayers"] = "53"
+//     yourFaveSportsTeam["numOfChampsWon"] = "1"
+//     yourFaveSportsTeam["isBestTeam"] = "No"
+//
+//     function team(obj){
+//             return [obj.numOfPlayers, obj.numOfChampsWon];
+//     }
+//     console.log(yourFaveSportsTeam.city);
+//     console.log(yourFaveSportsTeam["coach"]);
+//
+//     yourFaveSportsTeam.coach = "Nagy"; //// REPLACING MATT NAGY WITH NAGY
+//     console.log(yourFaveSportsTeam)
+//
+//     var laptop = {
+//         color: "space gray",
+//         make: "mac",
+//         shutDown: function (){
+//             return "laptop is shutting down";
+//         }
+//     }
+//
+//     console.log(laptop.shutDown())
+// laptop.turnOn = function(){
+//         return "laptop is now starting";
+// }
+//     console.log(laptop);
+
+    /** Mini Exercises */
+    /*  TODO: Create a zoo object that contains basic info about the zoo (name, city,
+          isOpen, ranking, yearOpened), as
+          well as, information about at least 5 different animals (think nested objects). For each
+          Each animal must contain 3 identifiers (examples: hasFur, isMammal, animalSound, canFly,
+           livingPlace). Each animal must also contain a method that returns the sound of that
+            animal using the THIS keyword.
+           hint: Each animal should have at least 5 properties (one of them being animalSound)
+
+
+     */
+    var zoo = [{
+        name: "San Antonio Zoo",
+        city: "San Antonio",
+        isOpen: "Yes",
+        Ranking: "3rd",
+        yearOpened: "1914",},
+
+        {
+            hasFur: "Yes",
+            isMammal: "Yes",
+            canFly: "No",
+            animalSound: "Growl",
+            livingPlace: "Forests",
+
+        },
+        {
+            hasFur: "Yes",
+            isMammal: "Yes",
+            canFly: "No",
+            animalSound: "Ring_ding_ding_ding_ding_er_inge_ding",
+            livingPlace: "Forests",},
+
+        {
+
+
+        }
+    ];
+
+
+    console.log(zoo);
+
+
+    var random = Math.random();
+    console.log(random);
+
+    var fixed = random.toFixed(3);
+    console.log(fixed);
+
+    var inBetween = Math.floor(Math.random() * (40 - 20 + 1) + 20);
+    console.log(inBetween);
+
+    /**
+     * TODO:
+     * Create an object with firstName and lastName properties that are strings
+     * with your first and last name. Store this object in a variable named
+     * `person`.
+     *
+     * Example:
+     *  > console.log(person.firstName) // "Rick"
+     *  > console.log(person.lastName) // "Sanchez"
+     */
+
+    /**
+     * TODO:
+     * Add a sayHello method to the person object that returns a greeting using
+     * the firstName and lastName properties.
+     * console.log the returned message to check your work
+     *
+     * Example
+     * > console.log(person.sayHello()) // "Hello from Rick Sanchez!"
+     */
+
+    /** TODO:
+     * HEB has an offer for the shoppers that buy products amounting to
+     * more than $200. If a shopper spends more than $200, they get a 12%
+     * discount. Write a JS program, using conditionals, that logs to the
+     * browser, how much Ryan, Cameron and George need to pay. We know that
+     * Cameron bought $180, Ryan $250 and George $320. Your program will have to
+     * display a line with the name of the person, the amount before the
+     * discount, the discount, if any, and the amount after the discount.
+     *
+     * Uncomment the lines below to create an array of objects where each object
+     * represents one shopper. Use a foreach loop to iterate through the array,
+     * and console.log the relevant messages for each person
+     */
+
+    // var shoppers = [
+    //     {name: 'Cameron', amount: 180},
+    //     {name: 'Ryan', amount: 250},
+    //     {name: 'George', amount: 320}
+    // ];
+
+    /** TODO:
+     * Create an array of objects that represent books and store it in a
+     * variable named `books`. Each object should have a title and an author
+     * property. The author property should be an object with properties
+     * `firstName` and `lastName`. Be creative and add at least 5 books to the
+     * array
+     *
+     * Example:
+     * > console.log(books[0].title) // "The Salmon of Doubt"
+     * > console.log(books[0].author.firstName) // "Douglas"
+     * > console.log(books[0].author.lastName) // "Adams"
+     */
+
+    /**
+     * TODO:
+     * Loop through the books array and output the following information about
+     * each book:
+     * - the book number (use the index of the book in the array)
+     * - the book title
+     * - author's full name (first name + last name)
+     *
+     * Example Console Output:
+     *
+     *      Book # 1
+     *      Title: The Salmon of Doubt
+     *      Author: Douglas Adams
+     *      ---
+     *      Book # 2
+     *      Title: Walkaway
+     *      Author: Cory Doctorow
+     *      ---
+     *      Book # 3
+     *      Title: A Brief History of Time
+     *      Author: Stephen Hawking
+     *      ---
+     *      ...
+     */
+
+    /**
+     * Bonus:
+     * - Create a function named `createBook` that accepts a title and author
+     *   name and returns a book object with the properties described
+     *   previously. Refactor your code that creates the books array to instead
+     *   use your function.
+     * - Create a function named `showBookInfo` that accepts a book object and
+     *   outputs the information described above. Refactor your loop to use your
+     *   `showBookInfo` function.
+     */
+
+})();
