@@ -10,6 +10,8 @@
      * planetsArray.
      * console.log planetsArray to check your work
      */
+var planetsArray = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Saturn", "uranus", "Neptune"];
+    console.log(planetsArray);
 
     // console.log(planetsArray);
 
@@ -23,5 +25,6 @@
      * list. You will need an opening AND closing <ul> tags around the entire
      * string, and <li> tags around each planet.
      */
+
 
 })();
