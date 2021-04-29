@@ -47,6 +47,21 @@
  * different result everytime you refresh the page if you are using the random
  * number)
  */
+
+function isTwo(num){
+    if(num === 13){
+        return true;
+
+    }else{
+        return false;
+    }
+
+}
+console.log(isTwo(2))
+
+
+
+
 // function isTwo(anyNumber){
 //     return anyNumber;
 // }
