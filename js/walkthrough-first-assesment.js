@@ -59,3 +59,12 @@ function upperCase(input){
 }
 
 console.log(upperCase())
+
+
+
+function isGreaterThan (val1,val2){
+    return val1 > val2;
+}
+function isLessThan(val1, val2){
+    return Number(val1) < Number(val2);
+}

@@ -49,3 +49,6 @@ names.forEach(function(name){
      *  > last([1, 2, 3, 4, 5]) // return 5
      */
 
+function arr1(){
+}
+}

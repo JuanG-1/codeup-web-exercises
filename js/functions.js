@@ -9,8 +9,15 @@
  * > sayHello("codeup") // returns "Hello, codeup!"
  */
 
+function sayHello(name){
+    return "Hello " + name
+}
 
+console.log(sayHello("Juan"));
 
+var helloMessage = sayHello("Juan");
+
+console.log(helloMessage);
 /**
  * TODO:
  * Call the function 'sayHello' and pass your name as a string literal argument.
@@ -25,7 +32,9 @@
  * variable to the 'sayHello' function. You should see the same output in the
  * console.
  */
+var myName = sayHello("Juan");
 
+console.log(myName)
 // Don't modify the following line, it generates a random number between 1 and 3
 // and stores it in a variable named random
 // var random = Math.floor((Math.random() * 3) + 1);
@@ -80,7 +89,13 @@ console.log(isTwo(2))
  * > calculateTip(0.25, 25.50) // returns 6.375
  * > calculateTip(0.15, 33.42) // returns 5.013
  */
+function calculateTip(tip, bill ){
+    var totalBill = bill * tip;
+    return bill * tip === totalBill;
+    console.log(calculateTip())
+}
 
+console.log(calculateTip( .20, 20));
 /**
  * TODO:
  * Use prompt and alert in combination with your calculateTip function to
