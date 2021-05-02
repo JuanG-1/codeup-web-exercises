@@ -291,11 +291,123 @@ var random = Math.floor((Math.random()*100)+1);
 //
 // console.log("there are " + i + names[i])
 
+//
+// var names = ["juan", "jose", "maria", "trevor"];
+//
+//
+// names.push("tyrone", "leroy");///END OF THE ARRAY
+//
+//
+// names.unshift("bobby")////REMOVING
+//
+// names.shift()///adding to the beginning
+// var namesThatWont = names.pop()////REMOVE FROM THE END
+//
+// console.log("the name that is no longer needed " + namesThatWont);
+//
+// var index = names.indexOf("maria")
+//
+// console.log(index)
+//
+//
+// names.splice(0, 2)
+//
+// var indexOfGreen = names.indexOf("trevor");
+//
+// names.splice(indexOfGreen)
+// console.log(names)
 
-var names = ["juan", "jose", "maria", "trevor"];
+// (function(){
+//     "use strict";
+//
+//     // TODO: Create an array holding the names of the eight planets in our solar system in order, starting closest to the sun.
+//     var planets = ["MERCURY", "EARTH", "MARS", "VENUS", "URANUS"]
+//
+//     // function for logging the planets array
+//     function logPlanets() {
+//         console.log("Here is the list of planets:");
+//         console.log(planets);
+//         console.log("---- ---- ---- ----");
+//     }
+//
+//     logPlanets();
+//
+//     console.log('Adding "The Sun" to the beginning of the planets array.');
+//     // TODO: Read the console.log() statement above. Write code to perform the step it describes.
+//     planets.unshift("the sun")
+//     logPlanets();
+//
+//     console.log('Adding "Pluto" to the end of the planets array.');
+//     // TODO: Read the console.log() statement above. Write code to perform the step it describes.
+//     planets.push("Pluto")
+//     logPlanets();
+//
+//     console.log('Removing "The Sun" from the beginning of the planets array.');
+//     // TODO: Read the console.log() statement above. Write code to perform the step it describes.
+//     planets.shift("the sun")
+//     logPlanets();
+//
+//     console.log('Removing "Pluto" from the end of the planets array.');
+//     // TODO: Read the console.log() statement above. Write code to perform the step it describes.
+//     planets.pop("pluto")
+//     logPlanets();
+//
+//     console.log('Finding and logging the index of "Earth" in the planets array.');
+//     var indexOfEarth = planets.indexOf("earth")
+//     // TODO: Read the console.log() statement above. Write code to perform the step it describes.
+//
+//     console.log('Using splice to remove the planet after "Earth".');
+//     // TODO: Read the console.log() statement above. Write code to perform the step it describes.
+//     var planetsAfterEarth = planets.splice(indexOfEarth + 1, 1)
+//     logPlanets();
+//
+//     console.log('Using splice to add back the planet after "Earth".');
+//     planets.splice
+//     // TODO: Read the console.log() statement above. Write code to perform the step it describes.
+//     logPlanets();
+//
+//     console.log("Reversing the order of the planets array.");
+//     // TODO: Read the console.log() statement above. Write code to perform the step it describes.
+//     planets.reverse()
+//     logPlanets();
+//
+//     console.log("Sorting the planets array.");
+//     planets.sort()
+//     // TODO: Read the console.log() statement above. Write code to perform the step it describes.
+//     logPlanets();
+// })();
+//
 
 
-names.forEach(function (element, index,){
+// var namesString = "juan,jose, maria,gilberto"
+//
+// var namesAsArray = namesString.split(",")
+//
+// console.log(namesString)
+//
+// console.log(namesAsArray)
+//
+// console.log(namesAsArray.join(","));
+(function(){
+    "use strict";
 
-console.log('The shape at index ' + index + ' is: ' + element)})
+    var planetsString = "Mercury|Venus|Earth|Mars|Jupiter|Saturn|Uranus|Neptune";
+    var planetsArray;
 
+    // TODO: Convert planetsString to an array, save it to planetsArray.
+var planetsArray = planetsString.split("|")
+    console.log(planetsArray);
+
+    // TODO: Create a string with <br> tags between each planet. console.log() your results.
+    //       Why might this be useful?
+
+    // Bonus: Create a second string that would display your planets in an undordered list.
+    //        You will need an opening AND closing <ul> tags around the entire string, and <li> tags around each planet.
+    //        console.log() your results.
+
+})();
+
+function myStuff(name){
+
+
+}

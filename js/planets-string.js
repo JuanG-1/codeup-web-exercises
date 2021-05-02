@@ -25,6 +25,7 @@ var planetsArray = planetsString.split("|");
      * list. You will need an opening AND closing <ul> tags around the entire
      * string, and <li> tags around each planet.
      */
+var planetsString = ("earth, <br> venus <br> mars <br> Jupiter <br> Saturn <br> Uranus <br> Neptune ")
 
-
+    console.log(planetsString)
 })();
