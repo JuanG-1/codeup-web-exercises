@@ -28,4 +28,16 @@ var planetsArray = planetsString.split("|");
 var planetsString = ("earth, <br> venus <br> mars <br> Jupiter <br> Saturn <br> Uranus <br> Neptune ")
 
     console.log(planetsString)
+
+
+
+    <ul>
+    <li>earth</li>
+    <li>venus</li>
+    <li>jupiter</li>
+    <li>Saturn</li>
+    <li>Uranus</li>
+    <li>Mars</li>
+    <li>Neptune</li>
+</ul>
 })();

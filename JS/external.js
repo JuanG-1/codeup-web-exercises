@@ -11,6 +11,9 @@
 //  -> if it is your favorite as well, then show a special message for the user
 //  -> otherwise, show the normal message
 
+
+console.log("Hello from external JavaScript")
+
 alert("Welcome to my Website!");
 
 var UserColor = prompt("What is your favorite color");
