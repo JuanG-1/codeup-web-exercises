@@ -238,6 +238,16 @@ console.log(books[0].author.lastName);
      *      ---
      *      ...
      */
+function booksILike(obj){
+    for(var i = 0; i < obj.length; i++){
+
+        console.log(`Book # ${i + 1}`);
+        console.log(`Title: ${obj[i].title}`);
+        console.log(`Author: ${obj[i].author.firstName} ${obj[i].author.lastName}`)
+        console.log("--------------")
+    }
+    }
+booksILike(books)
 
     /**
      * Bonus:
@@ -249,3 +259,4 @@ console.log(books[0].author.lastName);
      *   outputs the information described above. Refactor your loop to use your
      *   `showBookInfo` function.
      */
+
