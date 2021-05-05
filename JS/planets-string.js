@@ -1,4 +1,4 @@
-(function(){
+
     "use strict";
 
     var planetsString = "Mercury|Venus|Earth|Mars|Jupiter|Saturn|Uranus|Neptune";
@@ -30,4 +30,3 @@ var planetsString = ("earth, <br> venus <br> mars <br> Jupiter <br> Saturn <br> 
     console.log(planetsString)
 
 
-    

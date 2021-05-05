@@ -1,0 +1,15 @@
+h2{
+    color:hotpink;
+    border: solid;
+}
+
+h3{
+    border-style: solid;
+    width: 700px;
+    height: 20px;
+    padding:10px;
+    margin: auto;
+    color: deeppink;
+}
+
+
