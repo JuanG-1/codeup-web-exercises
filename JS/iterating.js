@@ -1,40 +1,40 @@
-(function(){
+(function() {
     "use strict";
 
-    /**
-     * TODO:
-     * Create an array of 4 people's names and store it in a variable called
-     * 'names'.
-     */
-var names = ["Juan", "Jose", "Maria", "Fernando"];
-    /**
-     * TODO:
-     * Create a log statement that will log the number of elements in the names
-     * array.
-     */
-console.log(names.length);
-    /**
-     * TODO:
-     * Create log statements that will print each of the names individually by
-     * accessing each element's index.
-     */
-    console.log(names[1,2,3,4]);
-    /**
-     * TODO:
-     * Write some code that uses a for loop to log every item in the names
-     * array.
-     */
-// for(var i = 0; i < names.length; i++){
-//
-// console.log(names[i])
-// }
-    /**
-     * TODO:
-     * Refactor your above code to use a `forEach` loop
-     */
-names.forEach(function(name){
-    console.log(name);
-})
+//     /**
+//      * TODO:
+//      * Create an array of 4 people's names and store it in a variable called
+//      * 'names'.
+//      */
+//     var names = ["Juan", "Jose", "Maria", "Fernando"];
+//     /**
+//      * TODO:
+//      * Create a log statement that will log the number of elements in the names
+//      * array.
+//      */
+//     console.log(names.length);
+//     /**
+//      * TODO:
+//      * Create log statements that will print each of the names individually by
+//      * accessing each element's index.
+//      */
+//     console.log(names[1, 2, 3, 4]);
+//     /**
+//      * TODO:
+//      * Write some code that uses a for loop to log every item in the names
+//      * array.
+//      */
+// // for(var i = 0; i < names.length; i++){
+// //
+// // console.log(names[i])
+// // }
+//     /**
+//      * TODO:
+//      * Refactor your above code to use a `forEach` loop
+//      */
+//     names.forEach(function (name) {
+//         console.log(name);
+//     })
     /**
      * TODO:
      * Create the following three functions, each will accept an array and
@@ -49,6 +49,29 @@ names.forEach(function(name){
      *  > last([1, 2, 3, 4, 5]) // return 5
      */
 
-function arr1(){
-}
-}
+    var arr1 = [1, 2, 3, 4, 5]
+
+    var arr2 = [1, 2, 3, 4, 5]
+
+    var arr3 = [1, 2, 3, 4, 5]
+
+    function myArray1(arr1){
+        return arr1.indexOf(1)
+    }
+
+   console.log(myArray1([1]))
+
+    function myArray2(arr2){
+return arr2.indexof(arr2)
+    }
+
+    console.log(myArray2([2]))
+
+    function myArray3(arr3){
+    return arr3.indexOf(3)
+    }
+
+    console.log(myArray3([3]))
+
+
+})
