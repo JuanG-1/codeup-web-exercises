@@ -1,0 +1,27 @@
+.message {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 10px;
+    font-family: Arial, Ubuntu, sans-serif;
+    border: 1px solid black;
+    font-size: large
+
+
+}
+
+#box-blue{
+background-color: lightskyblue;
+}
+
+#box-green{
+background-color: green
+}
+
+#box-yellow{
+background-color: yellow;
+}
+
+#box-red{
+background-color: orangered;
+}
