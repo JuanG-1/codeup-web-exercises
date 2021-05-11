@@ -119,6 +119,7 @@ var randomColor = colors[Math.floor(Math.random() * colors.length)];
 // console.log(analyzeColor(colors));
 // /* ########################################################################## */
 // /**
+
 //  * TODO:
 //  * Suppose there's a promotion in Walmart, each customer is given a randomly
 //  * generated "lucky number" between 0 and 5. If your lucky number is 0 you have
@@ -167,3 +168,4 @@ var randomColor = colors[Math.floor(Math.random() * colors.length)];
 // /**
 //  */*
 //*****
+

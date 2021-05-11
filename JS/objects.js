@@ -181,26 +181,26 @@
      * and console.log the relevant messages for each person
      */
 
-    // var shoppers = [
-    //     {name: 'Cameron', amount: 180},
-    //     {name: 'Ryan', amount: 250},
-    //     {name: 'George', amount: 320}
-    // ];
-    //
-    // shoppers.forEach(offer);
-    //
-    // function offer(shopper){
-    //     var discount = 0;
-    //     var newTotal = 0;
-    //
-    //     console.log('${shopper.name} has a bill of $${shopper.amount}.');
-    //
-    //     if (shopper.amount > 200){
-    //     discount = shopper.amount * 0.12;
-    //     newTotal = shopper.amount - discount;
-    //         console.log('after the discount ${shopper.name} total is $${newTotal}`)
-    //     }
-    // }
+    var shoppers = [
+        {name: 'Cameron', amount: 180},
+        {name: 'Ryan', amount: 250},
+        {name: 'George', amount: 320}
+    ];
+
+    shoppers.forEach(offer);
+
+    function offer(shopper){
+        var discount = 0;
+        var newTotal = 0;
+
+        console.log('${shopper.name} has a bill of $${shopper.amount}.');
+
+        if (shopper.amount > 200){
+        discount = shopper.amount * 0.12;
+        newTotal = shopper.amount - discount;
+            console.log('after the discount ${shopper.name} total is $${newTotal}`)
+        }
+    }
 
     /** TODO:
      * Create an array of objects that represent books and store it in a
@@ -214,17 +214,17 @@
      * > console.log(books[0].author.firstName) // "Douglas"
      * > console.log(books[0].author.lastName) // "Adams"
      */
-// var books = [
-//         {title: "The Shinning", author: { firstName:"Stephen", lastName:"King"}},
-//         {title: "The Last Stand", author:{firstName:"Stephen", lastName: "King"}},
-//         {title: "Tommy knockers", author:{firstName:"Stephen", lastName: "King"}},
-//         {title: "IT", author:{firstName:"Stephen", lastName: "King"}},
-//         {title: "Perfect Storm", author:{firstName:"Stephen", lastName: "King"}},
-//     ]
-//
-// console.log(books[0].title);
-// console.log(books[0].author.firstName);
-// console.log(books[0].author.lastName);
+var books = [
+        {title: "The Shinning", author: { firstName:"Stephen", lastName:"King"}},
+        {title: "The Last Stand", author:{firstName:"Stephen", lastName: "King"}},
+        {title: "Tommy knockers", author:{firstName:"Stephen", lastName: "King"}},
+        {title: "IT", author:{firstName:"Stephen", lastName: "King"}},
+        {title: "Perfect Storm", author:{firstName:"Stephen", lastName: "King"}},
+    ]
+
+console.log(books[0].title);
+console.log(books[0].author.firstName);
+console.log(books[0].author.lastName);
 
 
 
@@ -252,16 +252,16 @@
      *      ---
      *      ...
      */
-// function booksILike(obj){
-//     for(var i = 0; i < obj.length; i++){
-//
-//         console.log(`Book # ${i + 1}`);
-//         console.log(`Title: ${obj[i].title}`);
-//         console.log(`Author: ${obj[i].author.firstName} ${obj[i].author.lastName}`)
-//         console.log("--------------")
-//     }
-//     }
-// booksILike(books)
+function booksILike(obj){
+    for(var i = 0; i < obj.length; i++){
+
+        console.log(`Book # ${i + 1}`);
+        console.log(`Title: ${obj[i].title}`);
+        console.log(`Author: ${obj[i].author.firstName} ${obj[i].author.lastName}`)
+        console.log("--------------")
+    }
+    }
+booksILike(books)
 
     /**
      * Bonus:

@@ -55,20 +55,22 @@
 // Yay! I sold them all! // If there are no more cones
 //
 
-var allCones = Math.floor( Math.random() * 50) + 50;
-
-var wantedCones = Math.floor( Math.random() * 5) +1;
-
-do{
-    if(wantedCones > allCones){
-        console.log(`I'm sorry, you wanted ${wantedCones}, but we only have ${allCones}`)
-        continue;
-    }
-    console.log( `Here is your Ice Cream Cone ${ wantedCones}. Enjoy!`)
-    allCones -= wantedCones;
-    console.log(`We have ${allCones} remaining`);
-}while(allCones > 0)
-
-
-
-
+// var allCones = Math.floor( Math.random() * 50) + 50;
+//
+// var wantedCones = Math.floor( Math.random() * 5) +1;
+//
+// do{
+//     if(wantedCones > allCones){
+//         console.log(`I'm sorry, you wanted ${wantedCones}, but we only have ${allCones}`)
+//         continue;
+//     }
+//     console.log( `Here is your Ice Cream Cone ${ wantedCones}. Enjoy!`)
+//     allCones -= wantedCones;
+//     console.log(`We have ${allCones} remaining`);
+// }while(allCones > 0)
+//
+//
+//
+//
+//
+//

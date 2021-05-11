@@ -40,11 +40,11 @@
 //
 // /// FOR LOOPS
 //
-//  for(let i = 0; i <= 10; i++){ //starting point, end point and increment
-//      // code to be executed
-//      console.log(`hello world ${i}`);
-//  }
-//
+ for(let i = 0; i <= 10; i++){ //starting point, end point and increment
+     // code to be executed
+     console.log(`hello world ${i}`);
+ }
+
 //  for(let x = 10; x <= 25; x++){
 //      console.log(x * 2);
 //  }
@@ -101,15 +101,15 @@
  // // TODO: loop through numbers 1 - 40. Print "marco" if it's divisible by 3. Print "polo" if it's divisible by 5.
  //  If it's neither print "I'm not playing"
  //  Print "marco polo" if it's divisible by 3 and
-
-for(let i = 0; i<= 40; i++) {
- if (i % 3 === 0) {
-  console.log("marco");
-  if (i % 5 ) {
-   console.log("polo")
-  }
- }
-}
+//
+// for(let i = 0; i<= 40; i++) {
+//  if (i % 3 === 0) {
+//   console.log("marco");
+//   if (i % 5 ) {
+//    console.log("polo")
+//   }
+//  }
+// }
 
 
 

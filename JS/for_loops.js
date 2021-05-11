@@ -19,6 +19,16 @@
 // }
 // }
 
-prompt("what is your name ? ");{
-        alert("that is a nice name");
+// for(let i = 1; i <=9; i++){
+//     let output = ""
+//     for(let j = 1; j <=i; j++){
+//         output += i
+//     }
+//     console.log(output);
+// }
+//
+// console.log()
+
+for(let i = 100; i <= 5; i++ ){
+    console.log(i);
 }
