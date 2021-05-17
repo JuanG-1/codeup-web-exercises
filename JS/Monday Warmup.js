@@ -72,8 +72,15 @@
 // pyramid(5);
 
 
+//
+// Write a function named secondToLast(arr) that returns the data type of the second to last element of the array parameter.
+// When you call the function, pass in an array of your choosing
 
+var nombres = ["juan", "julio", "5", "jose", true, 5, "trevor"]
 
+function secondToLast(names){
+    return typeof names[names.length - 5]
+}
 
-
+console.log(secondToLast(nombres))
 
