@@ -11,3 +11,5 @@ console.log(drkGreen)
 let allPrg = document.getElementsByTagName('p')
 
 console.log(allPrg)
+
+
