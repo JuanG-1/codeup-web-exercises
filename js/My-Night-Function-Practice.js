@@ -19,15 +19,42 @@
 //
 // //Christians Numify Function///
 //
-function numify(num){
-    console.log(num);
-    if(typeof num === "string" || typeof num === "number")
-        return Number(num)
-    return NaN;
-}
+// function numify(num){
+//     console.log(num);
+//     if(typeof num === "string" || typeof num === "number")
+//         return Number(num)
+//     return NaN;
+// }
+//
+//
+// var names = ["bill", "josh", "james", 1, 2, 3, false]
+
+//
+// function plus (num1, num2){
+//     return num1 + num2
+// }
+//
+//
+// console.log(parseInt("1") + 2)
 
 
-var names = ["bill", "josh", "james", 1, 2, 3, false]
+// var string = 'John Paul George Ringo Santana';
+// function splitting(input){
+//     array.join(' ');
+//
+// }
+//
+// console.log(splitting())
+
+
+
+
+
+
+
+
+
+
 
 
 

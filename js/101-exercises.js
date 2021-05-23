@@ -747,9 +747,8 @@ addToDone("Exercise 45 is correct.")
 // Exercise 46
 // Write a function definition named removeVowels that takes in string and returns the string without any vowels
 
-
-function removeVowels (string){
-return string === string.replace("a","e","i","o","u")
+function removeVowels(str) {
+    return str.replace(/[aeiouAEIOU]/ig,'');
 }
 
 console.log("string")
