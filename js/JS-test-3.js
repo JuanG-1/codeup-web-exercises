@@ -20,7 +20,7 @@ function double(num){
     return num * 2;
 }
 
-function remove9s(arr, value) {
+function remove9s(arr) {
     var i = 0;
     while (i < arr.length) {
         if (arr[i] === 9) {
@@ -31,6 +31,8 @@ function remove9s(arr, value) {
     }
     return arr;
 }
+
+
 
 function average(arr) {
     var sum = 0;
@@ -68,8 +70,11 @@ const names = {
     "lastName": "Gonzalez",
 }
 
-function convertNameToObject(obj) {
-    return names
+function convertNameToObject(input) {
+    return {
+        firstName: input.split('')[0],
+        lastName: input.split('')[1]
+    }
 }
 
 function countVowels(str)
@@ -94,8 +99,12 @@ const information = {
     "numberOfVowels": 2,
 }
 
-function analyzeWord(str){
-    return information;
+function analyzeWord(input){
+    return {
+        word: input,
+        numberOfLetters: input.length,
+        numberOfVowels: countVowels(input)
+    }
 
 }
 
