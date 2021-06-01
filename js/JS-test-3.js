@@ -105,7 +105,7 @@ function analyzeWord(input){
         numberOfLetters: input.length,
         numberOfVowels: countVowels(input)
     }
-
+git
 }
 
 function capitalizeName(str)
