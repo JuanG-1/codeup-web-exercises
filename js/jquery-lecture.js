@@ -63,14 +63,38 @@
 
 $("#pink").css("background-color","pink")
 
-window.onload = function(){
-    $("#pink").hide()
-    console.log("pink is gone");
-
-   }
+// window.onload = function(){
+//     $("#pink").hide()
+//     console.log("pink is gone");
+//
+//    }
 
 $(document).ready(function(){
     $("#pink").show();
 
 
 })
+
+
+//how to select multiple selectors
+
+$("p, div").css({
+    "border":"3px, solid, orange"
+})
+
+ $("#blue, .pink").css("font-family", "arial");
+
+///how to use a variable
+let firstPar = $("#blue");
+
+firstPar.css("color", "pink")
+
+
+//the following selects everything in the document
+// $("div *").hide();
+
+$("ul *").css("color", "red");
+
+
+
+
