@@ -84,3 +84,6 @@ function secondToLast(names){
 
 console.log(secondToLast(nombres))
 
+
+
+
