@@ -67,15 +67,22 @@ function setPopup(textDetails) {
     marker.setPopup(popup)
 }
 
-function getPopup(textdetails) {
-
+function getPopup(textDetails) {
+    return new mapboxgl.Popup()
+        .setHTML(`<p>%{textDetails}</p>)
+.addTo(map)
 }
+
 
 function getReversedGeocode(point, marker) {
     $.ajax({
-        url: `https://api.mapbox.com/geocoding/v5/mapbox.places/${point}.json?access_token=${mapboxgl.accessToken}`,
+        url: `
+    https://api.mapbox.com/geocoding/v5/mapbox.places/${point}.json?access_token=${mapboxgl.accessToken}`,
         success: function (data) {
-            marker.SetPopup(getPopup(data.features[0].place_name));
+            marker.SetPopup(getPopup(data.features[0].place_name))
+                .togglePopup();
         }
-    })
+}
+
+)
 }
