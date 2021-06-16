@@ -401,24 +401,50 @@
 //  -> Remove the old click events from #submitBtn
 //  -> When the user clicks #submitBtn, redirect the page to the value of #redirect-url
 //  -> HINT: You can either add a new input or change the id of an existing input element to #redirect-url to save time
-
-$("#submitBtn").click(function(){
-
-    let url = $("#redirect-url").val();
-
-    if (!url.includes('https')){
-        url = 'https://' + url
-    }
-    location.href = url;
-})
+//
+// $("#submitBtn").click(function(){
+//
+//     let url = $("#redirect-url").val();
+//
+//     if (!url.includes('https')){
+//         url = 'https://' + url
+//     }
+//     location.href = url;
+// })
 
 // TODO: After a 2 second delay (BOM), when the user loads the page, change #main-title to a value of your choosing (change text, background color, what have you)!
 
 
+///change color of all H2 elements on hover, hover out reverts
+
+// $("h2").hover(function () {
+//     $("h2").css("color", "red");
+// }, function () {
+//     $("h2").css("color", "")
+// });
+
+///add a border whenever any element with calls card a border to that card
+
+$(".card").click(function(){
+    $(this).css("border", "5px solid black")
+})
+
+//whenever someone clicks the button with the id of sumbitBtn,
+// they should be redirected to codeup.com
+
+$("#submitBtn").click(function(){
+    window.location.href='https://codeup.com/';
+})
+
+///whenever an element which has the class of col-md-3, whenever that element is
+// dbclicked, want to get the value of its data attribute
+// data attribute and replace .card-text with that value
 
 
-
-
+$(".col-md-3").dblclick(function(){
+   let dataValue = $(this).attr("data-attribute");
+   $(this).find(".card-text").text(dataValue)
+})
 
 
 
