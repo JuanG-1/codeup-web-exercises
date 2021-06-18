@@ -441,11 +441,11 @@ $("#submitBtn").click(function(){
 // data attribute and replace .card-text with that value
 
 
-$(".col-md-3").dblclick(function(){
-   let dataValue = $(this).attr("data-attribute");
-   $(this).find(".card-text").text(dataValue)
-})
 
+$(".col-md-3").dblclick(function(){
+    let dataValue = $(this).attr("data-attribute");
+    $(this).find(".card-text").text(dataValue)
+})
 
 
 
