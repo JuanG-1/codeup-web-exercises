@@ -176,6 +176,9 @@ fetch('https://jsonplaceholder.typicode.com/posts') // make a request - GET
 // myOtherPromise.then(() => console.log('resolved!'));
 // myOtherPromise.catch(() => console.log('rejected!'));
 
-
+if (true) {
+    let x = 5;
+}
+console.log(typeof x);
 
 
